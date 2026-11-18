@@ -1,0 +1,13 @@
+﻿{
+  "mcpServers": {
+    "k3s": {
+      "command": "uvx",
+      "args": [
+        "kubernetes-mcp-server@latest"
+      ],
+      "env": {
+        "KUBECONFIG": "<KUBECONFIG_PATH>"
+      }
+    }
+  }
+}

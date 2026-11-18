@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "eks": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.eks-mcp-server@latest",
+        "awslabs.eks-mcp-server",
+        "--allow-sensitive-data-access"
+      ],
+      "env": {
+        "AWS_PROFILE": "<PROFILE_NAME>",
+        "AWS_REGION": "<REGION>",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}
